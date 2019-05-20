@@ -1,3 +1,8 @@
 server:
   port: 8080
 
+zuul:
+  routes:
+    ingredient-client:
+      path: /**
+      serviceId: ingredient-client
